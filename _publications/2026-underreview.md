@@ -5,5 +5,5 @@ category: manuscripts
 permalink: /publication/2026-underreview
 date: 2025
 venue: 'Under review'
-paperurl: 'https://academicpages.github.io/files/under_review_2026.pdf'
+paperurl: 'https://academicpages.github.io/files/underreview_2026.pdf'
 ---
