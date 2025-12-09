@@ -11,35 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
+* Ph.D in Computer Science, Polytechnique Montreal, 2027 (expected)
+* M.S. in Artificial Intelligence & Applied Mathematics, Sorbonne University, 2023
+* M.S. in Artificial Intelligence, ENSTA, 2023
+* Preparatory school, Prytanée National Militaire, 2019
+  
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2023 - Fall 2023: Research Intern
+  * Polytechnique Montreal
+  * Operations Research & ML : Constraint Programming Solver leveraging Reinforcement Learning (CP, RL, GNN, DP, ML).
+  * Supervisor: Professor Louis-Martin Rousseau & Professor Quentin Cappart
+  
+* Spring 2022 - Summer 2022: Research Intern
+  * VO2 Group AI Lab
+  * Reinforcement Learning : Explainable AI-based Trading Algorithm (DQN, DDPG, A2C)
+  * Supervisor: Dr. Etienne Gay
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2021 - Winter 2022: Operation Research Intern
+  * Total Energies Digital Factory
+  * Applied Mathematics : Exact Method for the Vehicle Routing Problem
+  * Supervisor: Pierre de Fréminville
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2021: Research Intern
+  * Ecole Polytechnique Fédérale de Lausanne
+  * Deep Learning : MRI Data Processing (RNN, LSTM, Transformer).
+  * Supervisor: Professor Ileana O. Jelescu
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Coding : C++, Python, Julia, Java, C, Matlab, Octave, SQL.
+* Languages : French (native), English (fluent), Spanish (intermediate), Chinese (beginner).
+* Hobbies : Running, Triathlon, Hiking, Handball (Captain), Travels.
 
 Publications
 ======
