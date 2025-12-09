@@ -1,7 +1,7 @@
 ---
 title: "Imitation-Guided World Models for Multi-Agent Train Rescheduling"
 collection: publications
-category: manuscripts
+category: conferences
 permalink: /publication/2026-underreview
 date: 2025-12-01
 venue: 'Under review'
