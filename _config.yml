@@ -23,7 +23,7 @@ repository               : "Max9294D.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "photo_profile.png"
   name             : "Max Bourgeat"
   pronouns         : # example: "she/her"  
   bio              : "PhD Student at Polytechnique Montréal"
