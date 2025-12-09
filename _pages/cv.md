@@ -64,4 +64,5 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Vice-President of CORS Montreal Student Chapter
+* Student Member of the Polytechnique Montreal Computer Science Department 
