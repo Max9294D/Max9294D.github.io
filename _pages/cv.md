@@ -65,4 +65,4 @@ Teaching
 Service and leadership
 ======
 * Vice-President of CORS Montreal Student Chapter
-* Student Member of the Polytechnique Montreal Computer Science Department 
+* Student Member of the Polytechnique Montreal Computer Science Department Comitee
