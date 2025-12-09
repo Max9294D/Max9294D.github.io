@@ -5,5 +5,5 @@ category: conferences
 permalink: /publication/2026-underreview
 date: 2025-12-01
 venue: 'Under review'
-paperurl: 'https://Max9294D.github.io/files/underreview_2026.pdf'
+paperurl: 'https://Max9294D.github.io/files/Expert_Guided_WM.pdf'
 ---
