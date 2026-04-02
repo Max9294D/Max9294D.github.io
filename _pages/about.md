@@ -25,7 +25,7 @@ I am currently a second-year PhD student in Machine Learning and Operations Rese
     <h3>News</h3>
     <ul>
       <li><strong>May 2026</strong> — I will be presenting our paper "Imitation-Guided World Models for Multi-Agent Train Rescheduling" at CPAIOR 2026 in Rabat, Morocco</li>
-      <li><strong>March 2026</strong> — I had the pleasure of presenting my research as part of the science communication competition “My Thesis in 180 Seconds” and at Polycongrès, a conference dedicated to student research at Polytechnique Montréal.</li>
+      <li><strong>March 2026</strong> — I had the pleasure of presenting my research as part of the science communication competition “My Thesis in 180 Seconds” and at Polycongrès, a conference dedicated to student research at Polytechnique Montréal, where I won the 2nd place award for best oral presentation.</li>
       <li><strong>Sep 2025</strong> — Joined CORS Montreal student chapter as Vice-President</li>
       <li><strong>Jul 2025</strong> — Invited talk at JFPC 2025 in Dijon, France</li>
       <li><strong>May 2025</strong> — Invited talk at JOPT 2025 in Montréal, Canada</li>
