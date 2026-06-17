@@ -24,6 +24,8 @@ I am currently a second-year PhD student in Machine Learning and Operations Rese
   <div class="col-md-6">
     <h3>News</h3>
     <ul>
+      <li><strong>June 2026</strong> — Our paper "Latent Stochastic Interpolants for Probabilistic Time Series Forecasting" has been accepted at Forecast@ICML 2026 Workshop: Forecasting as a New Frontier of Intelligence ! </li>
+      <li><strong>June 2026</strong> — I will be presenting my ongoing project combining World Models and Constrained Reinforcement Learning at CORS 2026 annual conference, in Kingston, Canada</li>
       <li><strong>May 2026</strong> — I will be presenting our paper "Imitation-Guided World Models for Multi-Agent Train Rescheduling" at CPAIOR 2026 in Rabat, Morocco</li>
       <li><strong>March 2026</strong> — I had the pleasure of presenting my research as part of the science communication competition “My Thesis in 180 Seconds” and at Polycongrès, a conference dedicated to student research at Polytechnique Montréal, where I won the 2nd place award for best oral presentation.</li>
       <li><strong>Sep 2025</strong> — Joined CORS Montreal student chapter as Vice-President</li>
