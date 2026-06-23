@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 title: "Publications"
 permalink: /publications/
@@ -33,4 +33,151 @@ author_profile: true
 {% endif %}
 
 
+ -->
+
+ ---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<style>
+  .publication-card {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin: 1.5rem 0;
+  }
+
+  .publication-card__image {
+    flex: 0 0 170px;
+  }
+
+  .publication-card__image img {
+    width: 170px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .publication-card__content {
+    flex: 1;
+  }
+
+  .publication-card__title {
+    margin: 0 0 0.35rem 0;
+  }
+
+  .publication-card__meta {
+    margin: 0.15rem 0;
+    color: #666;
+  }
+
+  .publication-card__links {
+    margin-top: 0.45rem;
+  }
+
+  @media (max-width: 600px) {
+    .publication-card {
+      flex-direction: column;
+    }
+
+    .publication-card__image,
+    .publication-card__image img {
+      width: 100%;
+      max-width: 320px;
+    }
+  }
+</style>
+
+{% assign publications = site.publications | sort: "date" | reverse %}
+
+<!-- New style rendering if publication categories are defined -->
+{% if site.publication_category %}
+  {% for category in site.publication_category %}
+    {% assign title_shown = false %}
+    {% for post in publications %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+
+      <div class="publication-card">
+        {% if post.image %}
+          <div class="publication-card__image">
+            <a href="{{ post.url | prepend: base_path }}">
+              <img src="{{ post.image | prepend: base_path }}" alt="Image representing {{ post.title }}">
+            </a>
+          </div>
+        {% endif %}
+
+        <div class="publication-card__content">
+          <h3 class="publication-card__title">
+            <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+          </h3>
+
+          {% if post.venue %}
+            <p class="publication-card__meta"><strong>{{ post.venue }}</strong></p>
+          {% endif %}
+
+          {% if post.date %}
+            <p class="publication-card__meta">{{ post.date | date: "%Y" }}</p>
+          {% endif %}
+
+          {% if post.excerpt %}
+            <p>{{ post.excerpt | markdownify | strip_html | truncate: 250 }}</p>
+          {% endif %}
+
+          {% if post.paperurl %}
+            <p class="publication-card__links"><a href="{{ post.paperurl }}">Paper</a></p>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  {% for post in publications %}
+    <div class="publication-card">
+      {% if post.image %}
+        <div class="publication-card__image">
+          <a href="{{ post.url | prepend: base_path }}">
+            <img src="{{ post.image | prepend: base_path }}" alt="Image representing {{ post.title }}">
+          </a>
+        </div>
+      {% endif %}
+
+      <div class="publication-card__content">
+        <h3 class="publication-card__title">
+          <a href="{{ post.url | prepend: base_path }}">{{ post.title }}</a>
+        </h3>
+
+        {% if post.venue %}
+          <p class="publication-card__meta"><strong>{{ post.venue }}</strong></p>
+        {% endif %}
+
+        {% if post.date %}
+          <p class="publication-card__meta">{{ post.date | date: "%Y" }}</p>
+        {% endif %}
+
+        {% if post.excerpt %}
+          <p>{{ post.excerpt | markdownify | strip_html | truncate: 250 }}</p>
+        {% endif %}
+
+        {% if post.paperurl %}
+          <p class="publication-card__links"><a href="{{ post.paperurl }}">Paper</a></p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}
 
